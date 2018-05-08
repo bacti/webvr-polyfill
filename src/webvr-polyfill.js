@@ -15,7 +15,6 @@
 
 import { extend, isMobile, race, copyArray } from './util';
 import CardboardVRDisplay from 'cardboard-vr-display';
-import { version } from '../package.json';
 import DefaultConfig from './config';
 
 function WebVRPolyfill(config) {
@@ -148,7 +147,7 @@ WebVRPolyfill.prototype.getVRDisplays = function() {
   });
 };
 
-WebVRPolyfill.version = version;
+WebVRPolyfill.version = 'N/A';
 
 // Attach polyfilled constructors
 WebVRPolyfill.VRFrameData = CardboardVRDisplay.VRFrameData;
