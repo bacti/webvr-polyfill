@@ -14,7 +14,7 @@
  */
 
 import { extend, isMobile, race, copyArray } from './util';
-import CardboardVRDisplay from 'cardboard-vr-display';
+import CardboardVRDisplay from '../../cardboard-vr-display';
 import DefaultConfig from './config';
 
 function WebVRPolyfill(config) {
