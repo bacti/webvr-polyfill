@@ -26,4 +26,4 @@ if (typeof global !== 'undefined' && global.window) {
   }
 }
 
-module.exports = require('./webvr-polyfill');
+module.exports = require('./src/webvr-polyfill');
